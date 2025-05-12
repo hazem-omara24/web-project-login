@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#contact-back{
+    background-image: url(images/contact.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+.contact-head h1{
+    padding-top: 200px;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.contact-head ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.contact-head ul li{
+margin: 20px 10px;
+padding-left: 15px;
+}
+.contact-head ul li p{
+    color: orangered;
+    font-size: 30px;
+}
+.contact-head ul li a{
+    padding: 20px 5px;
+    transition: 0.2s;
+    font-size: 30px;
+    font-weight: 600;
+}
+.services{
+    background-color: rgb(3, 3, 3);
+    padding-top: 100px ;
+    padding-bottom: 100px ;
+}
+.services .sec-title{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.services span{
+    color: orangered;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+.title{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.our-ser{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.ser{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    padding: 80px;
+   
+}
+
+.video{
+    width: 800px;
+    margin: 0 150px;
+    height: auto;
+    width: 80%;
+    transition: 0.5s ease;
+}
+
+.video :hover {
+
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(243, 242, 242, 1);
+    z-index: 2;
+
+}
+video{
+    display: inline;;
+    width: 100%;
+    padding: 80px 0;
+   
+}
+.text{
+    width: 58%;
+    border: 1px solid #636262;
+    border-radius: 15px ;
+    padding: 20px;
+    height: auto;
+    padding: 80px 20px;
+
+}
+
+.ser-title{
+    color: orangered;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.ser-desc{
+    color: #636262;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+
+
+/* إضافة في نهاية الملف */
+
+@media (max-width: 1200px) {
+    .ser {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .video {
+        margin: 0;
+        width: 100%;
+    }
+
+    .text {
+        max-width: 80%;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ser {
+        padding: 20px;
+    }
+
+    .ser-title {
+        font-size: 28px;
+    }
+
+    .ser-desc {
+        font-size: 16px;
+    }
+}

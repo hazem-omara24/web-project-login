@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.content{
+    padding: 100px 0;
+}
+.our-team{
+    color: orangered;
+    margin-left: 220px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+.our-title{
+    color: rgb(255, 255, 255);
+    margin-left: 220px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-top: 20px;
+
+}
+.captains{
+    display: flex;
+    justify-content: left;
+    margin-left: 200px;
+    
+}
+.card{
+    border-radius: 0;
+    height: 600px;
+    width: 350px;
+    padding: 0;
+    margin: 50px 30px;
+    display: block;
+    overflow: hidden;
+}
+.card-img{
+    height: 450px;;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.cap-text{
+    padding-top: 20px;
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+    
+}
+.cap-text h2{
+    color: #3a3939;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 8px;
+}
+.cap-text span{
+    color: #3a3939;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 8px 0;
+    
+}
+.social{
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.social a{
+    font-size: 20px;
+    color: #3a3939;
+}
+#sarah-elgendy{
+    background-image: url(images/team/team-1.jpg);
+}
+#ahmed-kamal{
+    background-image: url(images/team/team-2.jpg);
+}
+#ahmed-henary{
+    background-image: url(images/team/team-3.jpg);
+}
+#marwan-khedr{
+    background-image: url(images/team/team-4.jpg);
+}
+#rana-fawzy{
+    background-image: url(images/team/team-5.jpg);
+}
+#big-yasmeen{
+    background-image: url(images/team/team-6.jpg);
+}
+
+
+
+
+/* إضافة في نهاية الملف */
+
+@media (max-width: 1200px) {
+    .captains {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 30px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .our-team,
+    .our-title {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+    }
+
+    .card-img {
+        height: 300px;
+    }
+}

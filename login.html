@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y7Z GYM</title>
+    <link rel="icon" href="images/icons8-gym-32.png">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font-links -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- login form -->
+        <div id="login-section">
+            <h2>Sing in</h2>
+            <input type="text" id="login-username" placeholder="user name">
+            <input type="password" id="login-password" placeholder="Password">
+            <button onclick="login()">Login</button>
+            <button class="switch-btn" onclick="goToRegister()">New User? Register New </button>
+        </div>
+
+        <!-- register form -->
+        <div id="register-section">
+            <h2>sing up</h2>
+            <input type="text" id="reg-username" placeholder="user name">
+            <input type="password" id="reg-password" placeholder="Password">
+            <button onclick="register()">Login</button>
+            <button class="switch-btn" onclick="goToLogin()">Back to sing in</button>
+        </div>
+
+        <div class="message" id="message"></div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
