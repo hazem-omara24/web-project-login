@@ -12,7 +12,7 @@
                 message.innerText = "You have logged in successfully. You will be redirected now...";
                 // إعادة التوجيه إلى index.html بعد 1.5 ثانية
                 setTimeout(() => {
-                    window.location.href = "index.html";
+                    window.location.href = "home.html";
                 }, 1500);
             } else {
                 message.style.color = "red";
